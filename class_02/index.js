@@ -57,6 +57,32 @@ app.delete("/deleteUser/:uid", (req, res) => {
     }
 })
 
+app.put("/updateUser/:uid",(request,response)=>{
+    const id = parseInt(request.params.uid);
+
+
+    // response.send("data is updated successfully")
+    const {name, email} = request.body;
+
+    const found = members.some(member => member.id === id)
+
+    if(found){
+        members.forEach(member => {
+            if(member.id === id){
+                if(name) member.name = name
+                if(email) member.mail = email
+            }
+        })
+
+        response.status(200).json({
+            message:`User with id ${id} updated`,members
+        })
+    } else {
+        response.status(400).json({message:`User not found with id ${id}`})
+    }
+
+})
+
 app.listen(PORT, () => {
   console.log(`server is running on http://localhost:${PORT}`);
 });
