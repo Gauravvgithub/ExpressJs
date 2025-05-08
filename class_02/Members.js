@@ -1,0 +1,33 @@
+module.exports = [
+    {
+        id:1,
+        name:"Gaurav",
+        mail:"gaurav@meta.com",
+        status:"active"
+    },
+    {
+        id:2,
+        name:"Hansu",
+        mail:"hansu@meta.com",
+        status:"active"
+    },
+    {
+        id:3,
+        name:"sam",
+        mail:"sam@meta.com",
+        status:"inactive"
+    },
+    {
+        id:4,
+        name:"suraj",
+        mail:"suraj@meta.com",
+        status:"active"
+    },
+    {
+        id:5,
+        name:"raj",
+        mail:"raj@meta.com",
+        status:"active"
+    }
+
+]
