@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
+  },
+  "name": "class_03",
+  "version": "1.0.0",
+  "description": "- 1. get all posts\r - 2. get post with id\r - 3. create post\r - 4. update post\r - 5. delete post",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
