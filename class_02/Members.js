@@ -28,6 +28,35 @@ module.exports = [
         name:"raj",
         mail:"raj@meta.com",
         status:"active"
+    },
+    {
+        id:6,
+        name:"jack",
+        mail:"jack@meta.com",
+        status:"inactive"
+    },
+    {
+        id:7,
+        name:"ram dev",
+        mail:"ramDev@meta.com",
+        status:"active"
+    },
+    {
+        id:8,
+        name:"hp",
+        mail:"hp@google.com",
+        status:"inactive"
+    },
+    {
+        id:9,
+        name:"acer",
+        mail:"acer@google.com",
+        status:"active"
+    },
+    {
+        id:10,
+        name:"lenovo",
+        mail:"lenovo@meta.com",
+        status:"inactive"
     }
-
 ]
